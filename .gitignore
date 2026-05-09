@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+venv/
+env/
+.venv/
+*.egg-info/
+
+# SQLite
+data/*.db
+
+# Node
+node_modules/
+.next/
+frontend/.next/
+frontend/node_modules/
+*.local
+
+# Env
+.env
+.env.local
+.env.*.local
+.streamlit/secrets.toml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
