@@ -2,7 +2,7 @@ services:
   - type: web
     name: stock-screener-api
     runtime: python
-    region: oregon
+    region: Ohio
     plan: starter
     rootDir: backend
     buildCommand: pip install -r requirements.txt
