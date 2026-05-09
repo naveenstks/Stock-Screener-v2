@@ -2,8 +2,8 @@ services:
   - type: web
     name: stock-screener-api
     runtime: python
-    region: Ohio
-    plan: free
+    region: oregon
+    plan: starter
     rootDir: backend
     buildCommand: pip install -r requirements.txt
     startCommand: uvicorn main:app --host 0.0.0.0 --port $PORT
@@ -11,3 +11,7 @@ services:
     envVars:
       - key: PYTHON_VERSION
         value: 3.11.0
+    disk:
+      name: screener-data
+      mountPath: /var/data
+      sizeGB: 1
