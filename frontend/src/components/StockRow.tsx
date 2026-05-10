@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { ScoreBar } from "@/components/ui/ScoreBar";
-import { CandlestickChart } from "@/components/charts/CandlestickChart";
+import { CandlestickChart, ChartProps } from "@/components/charts/CandlestickChart";
 import { fetchChartData } from "@/lib/api";
 import { TrendingUp, TrendingDown, X, ChevronDown, ChevronUp } from "lucide-react";
 

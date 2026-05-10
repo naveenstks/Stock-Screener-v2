@@ -2,7 +2,7 @@
 
 import { useEffect, useRef } from "react";
 
-interface ChartProps {
+export interface ChartProps {
   data: {
     candles: Array<{ time: string; open: number; high: number; low: number; close: number; volume: number }>;
     ema_lines: {
